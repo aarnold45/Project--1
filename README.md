@@ -1,9 +1,8 @@
 # Project--1
 
 ![](/Linux/Bonus-Command-to-install-chkrootkit.png)
-![](/ELK-Stack-Deployment 
+![](/Diagrams/ELK-Stack.drawio.png 
 
-https://github.com/aarnold45/Project--1/blob/main/Ansible/Filebeat-playbook.yml
 
 Automated ELK Stack Deployment
 The files in this repository were used to configure the network depicted below.
