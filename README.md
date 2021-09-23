@@ -2,6 +2,6 @@
 
 ![](/Linux/Bonus-Command-to-install-chkrootkit.png)
 
-![](/images/diagram_ELK-Stack.drawio.png) 
+![](/images/Diagrams/_Elk-Stack.drawio.png) 
 
 
