@@ -16,7 +16,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
   - _TODO: Enter the playbook file._
 
 This document contains the following details:
-- Description of the Topologu
+- Description of the Topology
 - Access Policies
 - ELK Configuration
   - Beats in Use
@@ -46,9 +46,11 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 Load balancing ensures that the application will be highly available, in addition to restricting access to the network. Load balancers help ensure environment availability through distribution of incoming data to web servers. Jump boxes allow for more easy administration of multiple systems and provide an additional layer between the outside and internal assets.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the event logs and system metrics.
+ 
+•Filbeats watch for log directories or specific log files.
 
-Filbeats watch for log directories or specific log files.
-Metricbeat helps you monitor your servers by collecting metrics from the system and services running on the server.
+•Metricbeat helps you monitor your servers by collecting metrics from the system and services running on the server.
+
 The configuration details of each machine may be found below.
 
 The configuration details of each machine may be found below.
