@@ -3,13 +3,13 @@
 ![](/Linux/Bonus-Command-to-install-chkrootkit.png)
 
 
-![](/Diagrams/Elk-Stack.drawio.png) 
+![](../Diagrams/Elk Stack.drawio.png) 
 
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
 
-![](/Diagrams/Elk-Stack.drawio.png)
+![TODO: Update the path with the name of your diagram](/Diagrams/Elk-Stack.drawio.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -22,7 +22,22 @@ This document contains the following details:
   - Beats in Use
   - Machines Being Monitored
 - How to Use the Ansible Build
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook (.yml) file may be used to install only certain pieces of it, such as Filebeat.
 
+The following ansible-playbooks are needed to create and install DVWA and the ELK-server
+
+my-playbook.yml - used to install DVWA servers
+elk-playbook.yml - used to install ELK Server
+filebeat-playbook.yml - Used to install and configure Filebeat on Elk Server and DVWA servers
+metricbeat-playbook.yml - Used to install and configure Metricbeat on Elk Server and DVWA servers
+This document contains the following details:
+
+Description of the Topology
+Access Policies
+ELK Configuration
+Beats in Use
+Machines Being Monitored
+How to Use the Ansible Build
 
 ### Description of the Topology
 
@@ -38,12 +53,12 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
-| Name     | Function | IP Address | Operating System |
-|----------|----------|------------|------------------|
-| Jump Box | Gateway  | 10.0.0.1   | Linux            |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
+| Name     | Function | IP Address | Operating System       |
+|----------|----------|------------|------------------------|
+| Jump Box | Gateway  | 10.0.0.4   |Linux (Ubuntu 18.04 LTS)|
+| Web 1    | Server   | 10.0.0.5   |Linux (Ubuntu 18.04 LTS)|
+| Web 2    | Server   | 10.0.0.6   |Linux (Ubuntu 18.04 LTS)|
+|ELK Server| Server   | 10.1.0.5  |Linux (Ubuntu 18.04 LTS)|
 
 ### Access Policies
 
