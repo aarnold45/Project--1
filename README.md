@@ -2,7 +2,7 @@
 
 ![](/Linux/Bonus-Command-to-install-chkrootkit.png)
 
-![](/Linux/Elk Stack drawio.png) 
+![](/Linux/Elk-Stack.png)
 
 ## Automated ELK Stack Deployment
 
