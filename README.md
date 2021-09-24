@@ -66,7 +66,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the job box provisioner machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- _Personal IP Adress
+- Personal IP Adress
 
 Machines within the network can only be accessed by _____.
 - _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
