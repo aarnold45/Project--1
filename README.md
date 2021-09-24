@@ -16,9 +16,9 @@ the entire deployment pictured above. Alternatively, select portions of the YML 
 pieces of it, such as Filebeat.
 - _TODO: Enter the playbook file._
 
--ELK install
--Metricbeat playbook
--Filebeat playbook
+-Elk.install
+-Metricbeatplaybook
+-Filebeatplaybook
 
 
 This document contains the following details:
