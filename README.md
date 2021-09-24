@@ -1,6 +1,8 @@
 # Project--1
 
-![](/Linux/Elk-Stack-drawio.png) 
+![](/Linux/Bonus-Command-to-install-chkrootkit.png)
+
+![](/Linux/Elk Stack drawio.png) 
 
 ## Automated ELK Stack Deployment
 
