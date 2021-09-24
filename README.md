@@ -61,7 +61,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 | Jump Box | Gateway  | 10.0.0.4   |Linux (Ubuntu 18.04 LTS)|
 | Web 1    | Server   | 10.0.0.5   |Linux (Ubuntu 18.04 LTS)|
 | Web 2    | Server   | 10.0.0.6   |Linux (Ubuntu 18.04 LTS)|
-|ELK Server| Server   | 10.1.0.5  |Linux (Ubuntu 18.04 LTS)|
+|ELK Server| Server   | 10.1.0.5  |Linux (Ubuntu 18.04 LTS) |
 
 ### Access Policies
 
