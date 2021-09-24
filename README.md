@@ -17,9 +17,9 @@ pieces of it, such as Filebeat.
 
   - _TODO: Enter the playbook file.
 
--ELK install
--Metricbeat playbook
--Filebeat playbook
++ELK install
++Metricbeat playbook
++Filebeat playbook
 
 This document contains the following details:
 - Description of the Topology
