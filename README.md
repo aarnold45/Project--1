@@ -28,15 +28,7 @@ This document contains the following details:
   - Beats in Use
   - Machines Being Monitored
 - How to Use the Ansible Build
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook (.yml) file may be used to install only certain pieces of it, such as Filebeat.
 
-The following ansible-playbooks are needed to create and install DVWA and the ELK-server
-
-my-playbook.yml - used to install DVWA servers
-elk-playbook.yml - used to install ELK Server
-filebeat-playbook.yml - Used to install and configure Filebeat on Elk Server and DVWA servers
-metricbeat-playbook.yml - Used to install and configure Metricbeat on Elk Server and DVWA servers
-This document contains the following details:
 
 Description of the Topology
 Access Policies
