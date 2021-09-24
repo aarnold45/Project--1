@@ -2,6 +2,8 @@
 
 ![](/Linux/Elk-Stack.png)
 
+![](/Linux/Bonus-Command-to-install-chkrootkit.png)
+
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
@@ -92,7 +94,8 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-- _TODO: List the IP addresses of the machines you are monitoring_
+•Web 1 (10.0.0.5)
+•Web 2 (10.0.0.6)
 
 We have installed the following Beats on these machines:
 - _TODO: Specify which Beats you successfully installed_
