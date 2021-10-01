@@ -47,7 +47,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 | Jump Box | Gateway  | 10.0.0.4   |Linux (Ubuntu 18.04 LTS)|
 | Web 1    | Server   | 10.0.0.5   |Linux (Ubuntu 18.04 LTS)|
 | Web 2    | Server   | 10.0.0.6   |Linux (Ubuntu 18.04 LTS)|
-|ELK Server| Server   | 10.1.0.5  |Linux (Ubuntu 18.04 LTS) |
+|ELK Server| Server   | 10.1.0.5   |Linux (Ubuntu 18.04 LTS)|
 
 ### Access Policies
 
@@ -58,6 +58,14 @@ Only the Jump box provisioner machine can accept connections from the Internet. 
 
 Machines within the network can only be accessed by Jump Box
 - _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
+
+The machines on the internal network are not exposed to the public Internet.
+
+Only the jump box provisioner machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
+
+-Personal IP address
+
+Machines within the network can only be accessed by the Jump Box. The Elk Machine can have access from personal IP address through port 5601.
 
 A summary of the access policies in place can be found in the table below.
 
