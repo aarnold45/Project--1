@@ -9,8 +9,9 @@ the entire deployment pictured above. Alternatively, select portions of the YML 
 pieces of it, such as Filebeat.
 - _TODO: Enter the playbook file._
 
-•Elk install ![](/Ansible/install-ELK.YML)
+![](/Ansible/install-ELK.YML)
 
+•Elk install 
 •Metricbeat playbook
 
 •Filebeat playbook
