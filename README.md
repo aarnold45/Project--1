@@ -8,9 +8,12 @@ These files have been tested and used to generate a live ELK deployment on Azure
 the entire deployment pictured above. Alternatively, select portions of the YML file may be used to install only certain 
 pieces of it, such as Filebeat.
 
+
 •Elk install 
 
+
 •Metricbeat playbook
+
 
 •Filebeat playbook
 
