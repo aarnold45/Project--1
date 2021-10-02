@@ -134,7 +134,7 @@ The Filebeat-configuration
 
 • How do I specify which machine to install the ELK server on versus which to install Filebeat on? update filebeat-config.yml -- specify  which machine to install by updating the host files with ip addresses of web/elk servers and selecting which group to run on in ansible
 
-update filebeat-config.yml -- specify which machine to install by updating the host files with ip addresses of web/elk servers and selecting which group to run on in ansible
+  update filebeat-config.yml -- specify which machine to install by updating the host files with ip addresses of web/elk servers and selecting which group to run on in ansible
 
 Which URL do you navigate to in order to check that the ELK server is running?
 
