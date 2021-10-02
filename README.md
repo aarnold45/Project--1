@@ -131,3 +131,24 @@ SSH into the control node and follow the steps below:
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 
+Before running the playbook, we need to make sure that the private IP of elk server is added to the ansible hosts file under elkservers group.
+
+nano /etc/ansible/hosts command is used to edit the hosts file
+Below command is used to increase the memory
+sysctl -w vm.max_map_count=262144 . This improves the performance of Elk server.
+For Filebeats following needs to be added in the playbook
+curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.6.2-amd64.deb
+sudo dpkg -i filebeat-7.6.2-amd64.deb
+copy filebeat.yml from /etc/ansible/files/filebeat.yml(ansible) to /etc/metricbeat/filebeat.yml(Webserver)
+filebeat modules enable system
+filebeat setup
+service filebeat start
+For Metricbeats following needs to be added in the playbook
+curl -L -O https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-7.6.2-amd64.deb
+sudo dpkg -i metricbeat-7.6.2-amd64.deb
+copy metricbeat.yml from /etc/ansible/files/metricbeat.yml(ansible) to /etc/metricbeat/metricbeat.yml(Webserver)
+metricbeat modules enable system
+metricbeat setup
+service metricbeat start
+Roles have been created for the filebeat and metricbeat and their corresponding playbooks are represented by main_filebeat.yml and main_metricbeat.yml and the playbook using these roles is beatroles.yml
+Note: we need to make sure that the firewall rules are as restrictive as possible.
