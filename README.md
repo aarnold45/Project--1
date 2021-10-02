@@ -141,12 +141,18 @@ http://[your.ELK-VM.External.IP]:5601/app/kibana
 http://51.143.21.166:5601/app/kiban
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc
+
 Ansible Playbook the name of the playbook
+
 Before running the playbook, we need to make sure that the private IP of elk server is added to the ansible hosts file under elkservers group.
+
 nano /etc/ansible/hosts command is used to edit the hosts file
+
 change dir. /etc/ansible
+
 nano hosts (update IP on[webservers][elkserver
+
 nano ansible.cfg (remote_user to which server you want to use)
 
- curl https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/raw/eca603b72586fbe148c11f9c87bf96a63cb25760/Filebeat > /etc/ansible/filebeat-config.yml
+curl https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/raw/eca603b72586fbe148c11f9c87bf96a63cb25760/Filebeat > /etc/ansible/filebeat-config.yml
 
