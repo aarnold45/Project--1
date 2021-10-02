@@ -198,7 +198,7 @@ _As a **Bonus**, provide the specific commands the user will need to run to down
      command: metricbeat setup
      
    - name: start metricbeat service
-     command: service metricbeat start
+     command: service metricbeat start .
      
    ---
    
