@@ -121,7 +121,13 @@ SSH into the control node and follow the steps below:
 
 •Run the playbook, and navigate to http://51.143.21.166:5601/app/kibana to check that the installation worked as expected.
 
-•Which file is the playbook? The Filebeat-configuration
+•Which file is the playbook? 
+
+elk-playbook.yml - used to install ELK Server
+
+filebeat-playbook.yml - Used to install and configure Filebeat on Elk Server and DVWA servers
+
+metricbeat-playbook.yml - Used to install and configure Metricbeat on Elk Server and DVWA servers
 
 •Where do you copy it? copy /etc/ansible/files/filebeat-config.yml to /etc/filebeat/filebeat.yml
 
