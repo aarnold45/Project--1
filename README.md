@@ -131,7 +131,7 @@ SSH into the control node and follow the steps below:
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc.
 
-  -------Filebeat---------
+ -------Filebeat---------
 
 - To create the filebeat-configuration.yml file: nano filebeat-configuration.yml. For this, I used the filebeat configuration file template.
 
@@ -205,6 +205,3 @@ _As a **Bonus**, provide the specific commands the user will need to run to down
    - To run the playbook: ansible-playbook metricbeat-playbook.yml
    
    * To order to run the playbook, you have to be in the directory the playbook is at, or give the path to it (ansible-playbook /etc/ansible/roles/metricbeat-playbook.yml
-
-
-   
